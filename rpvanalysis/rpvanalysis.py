@@ -21,8 +21,8 @@ class analyzer:
         self.bkg_df = None
         self.dressed_mass_nom = None
         self.mc_label = ''
-        self.lumi_label = '36.5'
-        self.mc_lumi = 36.45
+        self.lumi_label = '36.1'
+        self.mc_lumi = 36.1
         self.MJ_cut = 0.8
         self.MJ_blind = 0.6
         self.n_template_bins = 50

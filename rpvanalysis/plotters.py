@@ -481,7 +481,7 @@ def plot_MJ(MJ_hists,scale_factor,plot_path,canvas,region_str,MJ_bins,lumi_label
     os.system('chmod a+r ' + full_path+'*')
     return return_list 
 
-def plot_response(response,plot_path,canvas,region_str,pt_bins,eta_bins,lumi_label='36.5',mc_label=''):
+def plot_response(response,plot_path,canvas,region_str,pt_bins,eta_bins,lumi_label='36.1',mc_label=''):
     dressed_mean,kin_mean,err = response
 
     dressed_mean = np.nan_to_num(dressed_mean)
